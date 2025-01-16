@@ -7,5 +7,5 @@ Folders in blue and files in white
 `Lo`: Displays a list of folders and files first, then files Folders are separated by a folder emoji and files by a file emoji.
 Audio files are separated by a song emoji and ...
 To get help, first install the package with this code in your terminal ` sudo ./lo --install`
-Supported operating systems
+Supported operating systems `Linux only` 
 `Creator : blaster_Void`
