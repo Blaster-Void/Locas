@@ -150,17 +150,17 @@ func main() {
 			} else {
 				continue
 			}
-
-			for _, f := range list {
-				if f.IsDir() {
-					continue
-				} else if string(f.Name()[0]) == "." {
-					continue
-				} else {
-					fmt.Printf("%v %v\n", FileDetector.Type_File(f.Name()), f.Name())
-				}
+		}
+		for _, f := range list {
+			if f.IsDir() {
+				continue
+			} else if string(f.Name()[0]) == "." {
+				continue
+			} else {
+				fmt.Printf("%v %v\n", FileDetector.Type_File(f.Name()), f.Name())
 			}
 		}
+
 	}
 }
 func isroot() bool {
